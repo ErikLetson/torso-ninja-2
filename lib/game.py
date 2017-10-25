@@ -194,8 +194,8 @@ class Game(object):
 
         self.worldspeed = 4
 
-        self.font = pygame.font.Font(os.path.join('data', 'font', 'yataghan.ttf'), 11)
-        self.font2 = pygame.font.Font(os.path.join('data', 'font', 'yataghan.ttf'), 48)
+        self.font = pygame.font.Font(os.path.join('data', 'font', 'Berenika.ttf'), 11)
+        self.font2 = pygame.font.Font(os.path.join('data', 'font', 'Berenika.ttf'), 48)
 
         self.levels = []
         self.level_index = 0
@@ -550,7 +550,7 @@ class Game(object):
         s_rect = s.get_rect()
         s_rect.topleft = (75, 12)
 
-        mh = self.font.render('MULTIPLIER  X', False, (0, 0, 0))
+        mh = self.font.render('MULTIPLIER    X', False, (0, 0, 0))
         mh_rect = mh.get_rect()
         mh_rect.topleft = (8, 44)
 
@@ -897,15 +897,15 @@ class Game(object):
 
             sh = self.font2.render('SCORE:', False, (0, 255, 255))
             sh_rect = sh.get_rect()
-            sh_rect.topleft = (280, 120)
+            sh_rect.topleft = (230, 120)
 
             s = self.font2.render(str(self.score), False, (0, 255, 255))
             s_rect = s.get_rect()
-            s_rect.topleft = (420, 120)
+            s_rect.topleft = (460, 120)
 
             ready = self.font2.render('GET READY', False, (255, 255, 255))
             ready_rect = ready.get_rect()
-            ready_rect.topleft = (280, 300)
+            ready_rect.topleft = (230, 300)
 
             self.screen.blit(sh, sh_rect)
             self.screen.blit(s, s_rect)
