@@ -46,7 +46,7 @@ anywhere, for any purpose, private or public, with only one condition: This para
 published work involving the character of Torso Ninja, so that others  might use the character as they wish.
 All rights reversed.
 
-Torso Ninja 2 was originally created by Erik Letson as part of the [One Game A Month Challenge](http://www.onegameamonth.com/) in December of 2015.
+Torso Ninja 2 was originally created by Erik Letson as part of the [One Game A Month Challenge](http://www.onegameamonth.com/) in May of 2016.
 It was initially only released in closed-source binary format. In October of 2017, the source was released on
 GitHub and the game was licensed under the GPL. The version on GitHub should be considered the current and
 definitive version of Torso Ninja 2.
